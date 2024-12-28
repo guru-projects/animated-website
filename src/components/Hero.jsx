@@ -86,7 +86,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden">
+    <div className="relative h-svh w-screen overflow-x-hidden">
       {isLoading && <div className="flex-center absolute z-[100] w-screen overflow-hidden h-dvh bg-violet-50">
         <div className="three-body">
           <div className="three-body__dot"></div>
@@ -96,7 +96,7 @@ const Hero = () => {
       </div>}
       <div
         id="video-frame"
-        className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-blue-75">
+        className="relative z-10 h-svh w-screen overflow-hidden rounded-lg bg-blue-75">
         <div>
           <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer rounded-lg overflow-hidden">
             <div
@@ -128,7 +128,7 @@ const Hero = () => {
             src={getVideoSrc(
               currentIndex === totalVideos - 1 ? 1 : currentIndex
             )}
-            // autoPlay
+            autoPlay
             loop
             muted
             className="absolute size-full top-0 left-0 object-cover object-center origin-center"

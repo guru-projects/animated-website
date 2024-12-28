@@ -35,7 +35,7 @@ const AnimatedTitle = ({title, containerClass}) => {
   }, []);
 
   return (
-    <div ref={containerRef} className={`animated-title ${containerClass}`}>
+    <div ref={containerRef} className={`animated-title !text-5xl md:!text-[5.5rem] leading-[0.9] ${containerClass}`}>
       {title.split("<br />").map((line, index) => (
         <div
           key={index}

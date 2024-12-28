@@ -47,7 +47,7 @@ const BentoCard = ({ src, title, description }) => {
         // onMouseOut={event => event.target.pause()}
         loop
         muted
-        // autoPlay
+        autoPlay
         className="absolute top-0 left-0 size-full object-cover object-center rounded-lg "></video>
 
       <div className="relative h-full p-6 text-blue-50 z-10 flex flex-col justify-between">
@@ -68,7 +68,7 @@ const BentoCard = ({ src, title, description }) => {
 };
 const Features = () => {
   return (
-    <section className="bg-black pb-52">
+    <section className="bg-black pb-52 px-2">
       <div className="container mx-auto">
         <div className="pt-40 font-circular-web text-blue-75 text-base">
           <p>Dive into the 'Game of Games' Universe</p>
@@ -80,7 +80,7 @@ const Features = () => {
 
         <BentoTilt className="mt-28 border-hsla relative w-full overflow-hidden rounded-md h-96 md:h-[65vh]">
           <BentoCard
-            src="../../public/videos/feature-1.mp4"
+            src="./videos/feature-1.mp4"
             title={
               <>
                 radie<b>n</b>t
@@ -93,7 +93,7 @@ const Features = () => {
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7 mt-6">
           <BentoTilt className="border-hsla rounded-lg bento-title-1 row-span-1 col-span-2 md:col-span-1 md:row-span-2">
             <BentoCard
-              src="../../public/videos/feature-2.mp4"
+              src="./videos/feature-2.mp4"
               title={
                 <>
                   zig<b>m</b>a
@@ -104,7 +104,7 @@ const Features = () => {
           </BentoTilt>
           <BentoTilt className="border-hsla rounded-lg bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
-             src="videos/feature-3.mp4"
+             src="./videos/feature-3.mp4"
             title={
               <>
                 n<b>e</b>xus
@@ -115,7 +115,7 @@ const Features = () => {
           </BentoTilt>
           <BentoTilt className="border-hsla rounded-lg bento-tilt_1 row-span-1 me-14 md:col-span-1 md:ms-0">
             <BentoCard
-            src="videos/feature-4.mp4"
+            src="./videos/feature-4.mp4"
             title={
               <>
                 az<b>u</b>l
@@ -137,7 +137,7 @@ const Features = () => {
 
         <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="./videos/feature-5.mp4"
             loop
             muted
             autoPlay

@@ -58,7 +58,7 @@ const Story = () => {
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-20"
           />
 
-          <div className="story-img-container">
+          <div className="story-img-container -mt-24 sm:mt-0">
             <div className="story-img-mask">
               <div className="story-img-content">
                 <img
