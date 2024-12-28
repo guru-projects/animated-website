@@ -25,7 +25,7 @@ A modern and captivating web profile designed for gaming enthusiasts. This proje
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/vivalafreak1/game-website.git
+   git clone https://github.com/guru-projects/animated-website.git
    cd game-website
    ```
 
